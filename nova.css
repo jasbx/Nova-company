@@ -515,16 +515,28 @@ width: 300px;
     }
 .myicon{
     display: none;
+  
 }
    
 }
 
-@media screen and (max-width: 786px) {
+
+@media screen and (min-width: 786px){
+    .btnnav{
+        display: none;
+    }
+}
+@media screen and (max-width: 786px)  {
     .about {
         flex-direction: column;
         align-items: center;
     }
-
+.nav{
+    display: none;
+}
+.btnnav{
+    display: block;
+}
     .img_abou img {
         width: 300px;
         height: 200px;
